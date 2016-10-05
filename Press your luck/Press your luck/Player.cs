@@ -14,9 +14,17 @@ namespace Press_your_luck
         private int _numSpins;
         private int _numPassedSpins;
 
-        public Player(string firstName, string lastName)
+        public Player()
         {
-            name = firstName + " " + lastName;
+            name = "";
+            money = 0;
+            numWhammy = 0;
+            numSpins = 0;
+            numPassedSpins = 0;
+        }
+        public Player(string Name)
+        {
+            name = Name;
             money = 0;
             numWhammy = 0;
             numSpins = 0;

@@ -124,13 +124,16 @@
   <data name="470G1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\470G1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Whammy5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whammy5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PTLBoard pieces" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PTLBoard pieces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="470G" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\470G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Whammy5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Whammy5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="470G2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\470G2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

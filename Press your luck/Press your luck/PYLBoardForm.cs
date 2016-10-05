@@ -11,10 +11,11 @@ using System.Windows.Forms;
 namespace Press_your_luck
 {
     public partial class PYLBoardForm : Form
-    {
+    {  
         public PYLBoardForm()
         {
             InitializeComponent();
         }
+
     }
 }

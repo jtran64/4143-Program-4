@@ -83,6 +83,16 @@ namespace Press_your_luck.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _470G2 {
+            get {
+                object obj = ResourceManager.GetObject("470G2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PTLBoard_pieces {
             get {
                 object obj = ResourceManager.GetObject("PTLBoard pieces", resourceCulture);
