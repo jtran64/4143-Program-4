@@ -8,3 +8,13 @@ C:\Users\johnny\Documents\Visual Studio 2013\Projects\Press your luck\Press your
 C:\Users\johnny\Documents\Visual Studio 2013\Projects\Press your luck\Press your luck\obj\Debug\Press your luck.pdb
 C:\Users\johnny\Documents\Visual Studio 2013\Projects\Press your luck\Press your luck\obj\Debug\Press_your_luck.PYLForm.resources
 C:\Users\johnny\Documents\Visual Studio 2013\Projects\Press your luck\Press your luck\obj\Debug\Press_your_luck.PYLBoardForm.resources
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\bin\Debug\Press your luck.exe.config
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\obj\Debug\Press your luck.exe
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\obj\Debug\Press your luck.pdb
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\obj\Debug\Press your luck.csprojResolveAssemblyReference.cache
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\obj\Debug\Press_your_luck.PYLBoardForm.resources
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\obj\Debug\Press_your_luck.PYLForm.resources
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\obj\Debug\Press your luck.csproj.GenerateResource.Cache
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\bin\Debug\Press your luck.exe
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\bin\Debug\Press your luck.pdb
+C:\Users\johnny\Desktop\4143-Program-4\Press your luck\Press your luck\obj\Debug\Press_your_luck.Properties.Resources.resources

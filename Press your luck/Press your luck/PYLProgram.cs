@@ -13,11 +13,11 @@ namespace Press_your_luck
 {
     public partial class PYLForm : Form
     {
-        Player player1 = new Player();
-        Player player2 = new Player();
-        Player player3 = new Player();
         Dictionary<string, string> QandA = new Dictionary<string,string>();
         bool numPlayers3 = false;
+        string p1Name;
+        string p2Name;
+        string p3Name;
         
 
         public PYLForm()
@@ -55,9 +55,9 @@ namespace Press_your_luck
 
         private void backButton2_Click(object sender, EventArgs e)
         {
-            player1NameBox.Text = "";
-            player2NameBox.Text = "";
-            player3NameBox.Text = "";
+            p1Name = "";
+            p2Name = "";
+            p3Name = "";
             PlayerScreen1.Visible = false;
             player3NameBox.Visible = false;
             player3NameLabel.Visible = false;
@@ -66,9 +66,9 @@ namespace Press_your_luck
 
         private void nextButton1_Click(object sender, EventArgs e)
         {
-            player1.name = player1NameBox.Text;
-            player2.name = player2NameBox.Text;
-            player3.name = player3NameBox.Text;
+            p1Name = player1NameBox.Text;
+            p2Name = player2NameBox.Text;
+            p3Name = player3NameBox.Text;
             fileScreen.Visible = true;
         }
 
@@ -95,9 +95,9 @@ namespace Press_your_luck
                 StreamReader reader = new StreamReader(fileName);
                 while ((question = reader.ReadLine()) != null)
                 {
-                    if ((answer = reader.ReadLine()) != null) ;
-                    if (answer != "" && question != "")
-                        QandA.Add(question, answer);
+                    if ((answer = reader.ReadLine()) != null) 
+                        if (answer != "" && question != "")
+                            QandA.Add(question, answer);
                 }
             }
         }
@@ -105,19 +105,20 @@ namespace Press_your_luck
         private void startGameButton_Click(object sender, EventArgs e)
         {
 
-            PYLBoardForm board = new PYLBoardForm();
-            board.P1NameBox.Text = player1.name;
-            board.P2NameBox.Text = player2.name;
+            PYLBoardForm board = new PYLBoardForm(QandA, p1Name, p2Name, p3Name);
+            board.P1NameBox.Text = p1Name;
+            board.P2NameBox.Text = p2Name;
             if (numPlayers3 == true)
             {
                 board.P3NameBox.Visible = true;
                 board.P3MoneyBox.Visible = true;
                 board.P3Spins.Visible = true;
                 board.P3PassSpins.Visible = true;
-                board.P3NameBox.Text = player3.name;
+                board.P3NameBox.Text = p3Name;
             }
             //Randomize board 
             board.Visible = true;
+            this.Visible = false;
         }
 
             

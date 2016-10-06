@@ -44,7 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Board.cs" />
+    <Compile Include="BoardSpace.cs" />
     <Compile Include="Player.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="PYLBoardForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,14 +74,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -105,6 +107,120 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\470G2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500G&amp;1Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\525G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\530G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\650G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\740G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\750G&amp;Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\750G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\800G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\900G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000G+Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1100G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1250G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1300G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1400G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1500G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1500G+Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1600G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1750G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1750G+Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1900G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000G+Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2250G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2500G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2500G+Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2750G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3000G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3000G+Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3500G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4000G.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4000G+Spin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whammy1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whammy2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whammy3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whammy4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

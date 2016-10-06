@@ -118,22 +118,127 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_4000G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4000G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whammy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whammy1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4000G_Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4000G+Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_750G_Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\750G&amp;Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1900G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1900G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1000G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3000G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3000G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1500G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1500G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1200G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_470G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\470G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_740G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\740G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2250G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2250G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1750G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1750G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PYLBoard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PYLBoard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="470G1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\470G1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_2500G_Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2500G+Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_500G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\500G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3500G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3500G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1600G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1600G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_750G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\750G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1500G_Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1500G+Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_500G_1Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\500G&amp;1Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1300G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1300G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_650G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\650G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whammy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whammy3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2500G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2500G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_530G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\530G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_900G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\900G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3000G_Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3000G+Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1250G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1250G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2750G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2750G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1750G_Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1750G+Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whammy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whammy2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_525G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\525G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2000G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2000G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1400G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1400G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2000G_Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2000G+Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_800G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\800G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1000G_Spin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1000G+Spin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whammy4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Whammy4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1100G" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1100G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Whammy5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Whammy5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PTLBoard pieces" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PTLBoard pieces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="470G" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\470G.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="470G2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\470G2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

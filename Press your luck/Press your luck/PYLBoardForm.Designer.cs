@@ -90,6 +90,18 @@
             this.space16 = new System.Windows.Forms.PictureBox();
             this.space17 = new System.Windows.Forms.PictureBox();
             this.space18 = new System.Windows.Forms.PictureBox();
+            this.exitButton = new System.Windows.Forms.Button();
+            this.nextQButton = new System.Windows.Forms.Button();
+            this.round1Button = new System.Windows.Forms.Button();
+            this.answerBox = new System.Windows.Forms.TextBox();
+            this.questionPanel = new System.Windows.Forms.Panel();
+            this.questionBox = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.round2Button = new System.Windows.Forms.Button();
+            this.startSpinButton = new System.Windows.Forms.Button();
+            this.spinButton = new System.Windows.Forms.Button();
+            this.passSpinButton = new System.Windows.Forms.Button();
+            this.whichPlayerLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.P3Wham3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P3Wham2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P3Wham4)).BeginInit();
@@ -139,6 +151,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.space16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.space17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.space18)).BeginInit();
+            this.questionPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // P1MoneyBox
@@ -617,6 +630,7 @@
             this.space1.Location = new System.Drawing.Point(16, 15);
             this.space1.Name = "space1";
             this.space1.Size = new System.Drawing.Size(93, 70);
+            this.space1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space1.TabIndex = 43;
             this.space1.TabStop = false;
             // 
@@ -626,6 +640,7 @@
             this.space2.Location = new System.Drawing.Point(131, 15);
             this.space2.Name = "space2";
             this.space2.Size = new System.Drawing.Size(93, 70);
+            this.space2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space2.TabIndex = 44;
             this.space2.TabStop = false;
             // 
@@ -635,6 +650,7 @@
             this.space3.Location = new System.Drawing.Point(246, 15);
             this.space3.Name = "space3";
             this.space3.Size = new System.Drawing.Size(93, 70);
+            this.space3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space3.TabIndex = 45;
             this.space3.TabStop = false;
             // 
@@ -644,6 +660,7 @@
             this.space4.Location = new System.Drawing.Point(362, 15);
             this.space4.Name = "space4";
             this.space4.Size = new System.Drawing.Size(93, 70);
+            this.space4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space4.TabIndex = 46;
             this.space4.TabStop = false;
             // 
@@ -653,6 +670,7 @@
             this.space5.Location = new System.Drawing.Point(478, 15);
             this.space5.Name = "space5";
             this.space5.Size = new System.Drawing.Size(93, 70);
+            this.space5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space5.TabIndex = 47;
             this.space5.TabStop = false;
             // 
@@ -662,6 +680,7 @@
             this.space6.Location = new System.Drawing.Point(594, 15);
             this.space6.Name = "space6";
             this.space6.Size = new System.Drawing.Size(93, 70);
+            this.space6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space6.TabIndex = 48;
             this.space6.TabStop = false;
             // 
@@ -671,6 +690,7 @@
             this.space7.Location = new System.Drawing.Point(594, 102);
             this.space7.Name = "space7";
             this.space7.Size = new System.Drawing.Size(93, 70);
+            this.space7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space7.TabIndex = 49;
             this.space7.TabStop = false;
             // 
@@ -680,6 +700,7 @@
             this.space8.Location = new System.Drawing.Point(594, 189);
             this.space8.Name = "space8";
             this.space8.Size = new System.Drawing.Size(93, 70);
+            this.space8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space8.TabIndex = 50;
             this.space8.TabStop = false;
             // 
@@ -689,6 +710,7 @@
             this.space9.Location = new System.Drawing.Point(594, 276);
             this.space9.Name = "space9";
             this.space9.Size = new System.Drawing.Size(93, 70);
+            this.space9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space9.TabIndex = 51;
             this.space9.TabStop = false;
             // 
@@ -698,6 +720,7 @@
             this.space10.Location = new System.Drawing.Point(594, 364);
             this.space10.Name = "space10";
             this.space10.Size = new System.Drawing.Size(93, 70);
+            this.space10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space10.TabIndex = 52;
             this.space10.TabStop = false;
             // 
@@ -707,6 +730,7 @@
             this.space11.Location = new System.Drawing.Point(478, 364);
             this.space11.Name = "space11";
             this.space11.Size = new System.Drawing.Size(93, 70);
+            this.space11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space11.TabIndex = 53;
             this.space11.TabStop = false;
             // 
@@ -716,6 +740,7 @@
             this.space12.Location = new System.Drawing.Point(362, 364);
             this.space12.Name = "space12";
             this.space12.Size = new System.Drawing.Size(93, 70);
+            this.space12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space12.TabIndex = 54;
             this.space12.TabStop = false;
             // 
@@ -725,6 +750,7 @@
             this.space13.Location = new System.Drawing.Point(246, 364);
             this.space13.Name = "space13";
             this.space13.Size = new System.Drawing.Size(93, 70);
+            this.space13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space13.TabIndex = 55;
             this.space13.TabStop = false;
             // 
@@ -734,6 +760,7 @@
             this.space14.Location = new System.Drawing.Point(131, 364);
             this.space14.Name = "space14";
             this.space14.Size = new System.Drawing.Size(93, 70);
+            this.space14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space14.TabIndex = 56;
             this.space14.TabStop = false;
             // 
@@ -743,6 +770,7 @@
             this.space15.Location = new System.Drawing.Point(16, 364);
             this.space15.Name = "space15";
             this.space15.Size = new System.Drawing.Size(93, 70);
+            this.space15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space15.TabIndex = 57;
             this.space15.TabStop = false;
             // 
@@ -752,6 +780,7 @@
             this.space16.Location = new System.Drawing.Point(16, 276);
             this.space16.Name = "space16";
             this.space16.Size = new System.Drawing.Size(93, 70);
+            this.space16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space16.TabIndex = 58;
             this.space16.TabStop = false;
             // 
@@ -761,6 +790,7 @@
             this.space17.Location = new System.Drawing.Point(16, 189);
             this.space17.Name = "space17";
             this.space17.Size = new System.Drawing.Size(93, 70);
+            this.space17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space17.TabIndex = 59;
             this.space17.TabStop = false;
             // 
@@ -770,8 +800,127 @@
             this.space18.Location = new System.Drawing.Point(16, 102);
             this.space18.Name = "space18";
             this.space18.Size = new System.Drawing.Size(93, 70);
+            this.space18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.space18.TabIndex = 60;
             this.space18.TabStop = false;
+            // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(711, 9);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(75, 23);
+            this.exitButton.TabIndex = 61;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // nextQButton
+            // 
+            this.nextQButton.Location = new System.Drawing.Point(711, 142);
+            this.nextQButton.Name = "nextQButton";
+            this.nextQButton.Size = new System.Drawing.Size(75, 44);
+            this.nextQButton.TabIndex = 63;
+            this.nextQButton.Text = "Next Question";
+            this.nextQButton.UseVisualStyleBackColor = true;
+            this.nextQButton.Click += new System.EventHandler(this.nextQButton_Click);
+            // 
+            // round1Button
+            // 
+            this.round1Button.Location = new System.Drawing.Point(711, 50);
+            this.round1Button.Name = "round1Button";
+            this.round1Button.Size = new System.Drawing.Size(75, 35);
+            this.round1Button.TabIndex = 64;
+            this.round1Button.Text = "Start Round 1";
+            this.round1Button.UseVisualStyleBackColor = true;
+            this.round1Button.Click += new System.EventHandler(this.round1Button_Click);
+            // 
+            // answerBox
+            // 
+            this.answerBox.Location = new System.Drawing.Point(126, 218);
+            this.answerBox.Name = "answerBox";
+            this.answerBox.ReadOnly = true;
+            this.answerBox.Size = new System.Drawing.Size(293, 20);
+            this.answerBox.TabIndex = 65;
+            // 
+            // questionPanel
+            // 
+            this.questionPanel.BackColor = System.Drawing.Color.DimGray;
+            this.questionPanel.Controls.Add(this.whichPlayerLabel);
+            this.questionPanel.Controls.Add(this.button1);
+            this.questionPanel.Controls.Add(this.questionBox);
+            this.questionPanel.Controls.Add(this.answerBox);
+            this.questionPanel.Location = new System.Drawing.Point(120, 92);
+            this.questionPanel.Name = "questionPanel";
+            this.questionPanel.Size = new System.Drawing.Size(462, 260);
+            this.questionPanel.TabIndex = 67;
+            // 
+            // questionBox
+            // 
+            this.questionBox.Location = new System.Drawing.Point(126, 63);
+            this.questionBox.Name = "questionBox";
+            this.questionBox.ReadOnly = true;
+            this.questionBox.Size = new System.Drawing.Size(293, 125);
+            this.questionBox.TabIndex = 67;
+            this.questionBox.Text = "";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(42, 203);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 35);
+            this.button1.TabIndex = 68;
+            this.button1.Text = "Submit Answer";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // round2Button
+            // 
+            this.round2Button.Location = new System.Drawing.Point(711, 96);
+            this.round2Button.Name = "round2Button";
+            this.round2Button.Size = new System.Drawing.Size(75, 34);
+            this.round2Button.TabIndex = 68;
+            this.round2Button.Text = "Start Round 2";
+            this.round2Button.UseVisualStyleBackColor = true;
+            this.round2Button.Visible = false;
+            // 
+            // startSpinButton
+            // 
+            this.startSpinButton.Location = new System.Drawing.Point(711, 202);
+            this.startSpinButton.Name = "startSpinButton";
+            this.startSpinButton.Size = new System.Drawing.Size(75, 23);
+            this.startSpinButton.TabIndex = 69;
+            this.startSpinButton.Text = "Start Spin";
+            this.startSpinButton.UseVisualStyleBackColor = true;
+            this.startSpinButton.Visible = false;
+            this.startSpinButton.Click += new System.EventHandler(this.startSpinButton_Click);
+            // 
+            // spinButton
+            // 
+            this.spinButton.Location = new System.Drawing.Point(711, 236);
+            this.spinButton.Name = "spinButton";
+            this.spinButton.Size = new System.Drawing.Size(75, 23);
+            this.spinButton.TabIndex = 70;
+            this.spinButton.Text = "Spin";
+            this.spinButton.UseVisualStyleBackColor = true;
+            this.spinButton.Visible = false;
+            // 
+            // passSpinButton
+            // 
+            this.passSpinButton.Location = new System.Drawing.Point(711, 265);
+            this.passSpinButton.Name = "passSpinButton";
+            this.passSpinButton.Size = new System.Drawing.Size(75, 23);
+            this.passSpinButton.TabIndex = 71;
+            this.passSpinButton.Text = "Pass Spins";
+            this.passSpinButton.UseVisualStyleBackColor = true;
+            this.passSpinButton.Visible = false;
+            // 
+            // whichPlayerLabel
+            // 
+            this.whichPlayerLabel.AutoSize = true;
+            this.whichPlayerLabel.BackColor = System.Drawing.Color.White;
+            this.whichPlayerLabel.Location = new System.Drawing.Point(123, 202);
+            this.whichPlayerLabel.Name = "whichPlayerLabel";
+            this.whichPlayerLabel.Size = new System.Drawing.Size(0, 13);
+            this.whichPlayerLabel.TabIndex = 69;
             // 
             // PYLBoardForm
             // 
@@ -779,6 +928,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
             this.ClientSize = new System.Drawing.Size(798, 635);
+            this.Controls.Add(this.passSpinButton);
+            this.Controls.Add(this.spinButton);
+            this.Controls.Add(this.startSpinButton);
+            this.Controls.Add(this.round2Button);
+            this.Controls.Add(this.questionPanel);
+            this.Controls.Add(this.round1Button);
+            this.Controls.Add(this.nextQButton);
+            this.Controls.Add(this.exitButton);
             this.Controls.Add(this.space18);
             this.Controls.Add(this.space17);
             this.Controls.Add(this.space16);
@@ -891,6 +1048,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.space16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.space17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.space18)).EndInit();
+            this.questionPanel.ResumeLayout(false);
+            this.questionPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -941,23 +1100,35 @@
         private System.Windows.Forms.PictureBox space16Highlight;
         private System.Windows.Forms.PictureBox space17Highlight;
         private System.Windows.Forms.PictureBox space18Highlight;
-        private System.Windows.Forms.PictureBox space1;
-        private System.Windows.Forms.PictureBox space2;
-        private System.Windows.Forms.PictureBox space3;
-        private System.Windows.Forms.PictureBox space4;
-        private System.Windows.Forms.PictureBox space5;
-        private System.Windows.Forms.PictureBox space6;
-        private System.Windows.Forms.PictureBox space7;
-        private System.Windows.Forms.PictureBox space8;
-        private System.Windows.Forms.PictureBox space9;
-        private System.Windows.Forms.PictureBox space10;
-        private System.Windows.Forms.PictureBox space11;
-        private System.Windows.Forms.PictureBox space12;
-        private System.Windows.Forms.PictureBox space13;
-        private System.Windows.Forms.PictureBox space14;
-        private System.Windows.Forms.PictureBox space15;
-        private System.Windows.Forms.PictureBox space16;
-        private System.Windows.Forms.PictureBox space17;
-        private System.Windows.Forms.PictureBox space18;
+        private System.Windows.Forms.Button exitButton;
+        public System.Windows.Forms.PictureBox space1;
+        public System.Windows.Forms.PictureBox space2;
+        public System.Windows.Forms.PictureBox space3;
+        public System.Windows.Forms.PictureBox space4;
+        public System.Windows.Forms.PictureBox space5;
+        public System.Windows.Forms.PictureBox space6;
+        public System.Windows.Forms.PictureBox space7;
+        public System.Windows.Forms.PictureBox space8;
+        public System.Windows.Forms.PictureBox space9;
+        public System.Windows.Forms.PictureBox space10;
+        public System.Windows.Forms.PictureBox space11;
+        public System.Windows.Forms.PictureBox space12;
+        public System.Windows.Forms.PictureBox space13;
+        public System.Windows.Forms.PictureBox space14;
+        public System.Windows.Forms.PictureBox space15;
+        public System.Windows.Forms.PictureBox space16;
+        public System.Windows.Forms.PictureBox space17;
+        public System.Windows.Forms.PictureBox space18;
+        private System.Windows.Forms.Button nextQButton;
+        private System.Windows.Forms.Button round1Button;
+        private System.Windows.Forms.TextBox answerBox;
+        private System.Windows.Forms.Panel questionPanel;
+        private System.Windows.Forms.RichTextBox questionBox;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button round2Button;
+        private System.Windows.Forms.Button startSpinButton;
+        private System.Windows.Forms.Button spinButton;
+        private System.Windows.Forms.Button passSpinButton;
+        private System.Windows.Forms.Label whichPlayerLabel;
     }
 }
